@@ -27,7 +27,7 @@ class Character():
         print(self.name + " doesn't want to fight with you")
         return True
     
-
+    #subclass of character class
 class Enemy(Character):
     def __init__(self,char_name, char_description):
         super().__init__(char_name, char_description)
